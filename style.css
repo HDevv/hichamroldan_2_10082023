@@ -1,0 +1,11 @@
+.header{
+    display: grid;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+.headerImg{
+    grid-area: logo;
+    padding: 0 2rem;
+    height: 2.813rem;
+}
