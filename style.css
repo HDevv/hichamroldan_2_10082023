@@ -19,6 +19,8 @@ body
     color: #dad9d7;
 }
 
+/*--------NAVIGATION------*/
+
 .navigateur {
     display: flex;
     justify-content: space-between;
