@@ -47,3 +47,21 @@ nav a {
     padding-right: 2em;
     padding-top: 3.2em;
 }
+
+nav li :hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+}
+
+.sinscrire {
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.sinscrire a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0065fc;
+    padding-left: 2em;
+}
