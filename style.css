@@ -19,8 +19,31 @@ body
     color: #dad9d7;
 }
 
-.header {
+.navigateur {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+}
+
+.navigateur headerImg {
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+
+nav a {
+    color: black;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 3.2em;
 }
