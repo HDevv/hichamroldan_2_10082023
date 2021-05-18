@@ -318,7 +318,7 @@ font-size: 12px;
   width: 33%;
 }
 
-.text-menu{
+.menutexte{
   display: flex;
   flex-direction: column;
   height: 150px;
@@ -326,11 +326,13 @@ font-size: 12px;
   padding-left: 1em;
 }
 
-.text-menu h3{
+.menutexte h3{
   font-size: 14px;
   margin-bottom: 0px;
 }
 
-.text-menu p{
+.menutexte p{
   font-size: 12px;
 }
+
+/*------ACTIVITES----*/
