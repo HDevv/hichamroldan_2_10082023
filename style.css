@@ -1,4 +1,4 @@
-/*--------général--------*/
+/*--------GENERAL--------*/
 
 body
 {
@@ -17,4 +17,10 @@ body
 }
 .star .gris, #pluspopulaires .gris{
     color: #dad9d7;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }

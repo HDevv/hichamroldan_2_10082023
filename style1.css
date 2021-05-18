@@ -9,3 +9,8 @@ body
 .content{
     padding: 2em;
 } 
+
+.corps i, #pluspopulaires i{
+    color: #0062fc;
+    font-size: 12px;
+}
