@@ -222,11 +222,11 @@ font-size: 12px;
   transition: all 0.2s ease-in-out;
 }
 
-.second-ligne {
+.secondeligne {
   display: flex; 
 }
 
-.content-box .box {
+.contentbox .box {
   background-color: white;
   width: 33%;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
@@ -239,7 +239,7 @@ font-size: 12px;
   font-size: 14px;
   padding-left: 15px;
 }
-.star{
+.étoilesprix{
   padding-left: 15px;
   padding-bottom: 6px;
 }
@@ -248,19 +248,19 @@ font-size: 12px;
   font-size: 12px;
 }
 
-.corps {
+.fondgris {
   display: flex;
 }
 
-.afficher-plus{
+.afficherplus{
   padding-left: 1em;
 }
-.afficher-plus :hover{
+.afficherplus :hover{
   color: blue;
 }
 
 /* ------PLUS POPULAIRES------ */
-.trendtitle {
+.titrepluspopulaires {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -269,22 +269,22 @@ font-size: 12px;
 }
 
 
-.trendtitle h2{
+.titrepluspopulaires h2{
   font-size: 18px;
 }
 
-#trend .trendtitle i{
+#pluspopulaires .titrepluspopulaires i{
   color: black;
 }
 
-.container-box{
+.conteneurbox{
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0em 2em;
 }
 
-#trend .trendbox {
+#pluspopulaires .trendbox {
   display: flex;
   background-color: white;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
@@ -295,7 +295,7 @@ font-size: 12px;
   width: 100%;
 }
 
-#trend .trendbox a{
+#pluspopulaires .trendbox a{
   display: -webkit-inline-flex;
 }
 
@@ -304,14 +304,14 @@ font-size: 12px;
   transition: all 0.2s ease-in-out;
 }
 
-#trend img {
+#pluspopulaires img {
   width: 40%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   object-fit: cover;
 }
 
-#trend{
+#pluspopulaires{
   background-color: #f2f2f2;
   margin-left: 1em;
   border-radius: 15px;
