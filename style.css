@@ -260,6 +260,7 @@ font-size: 12px;
 }
 
 /* ------PLUS POPULAIRES------ */
+
 .titrepluspopulaires {
   display: flex;
   justify-content: space-between;
@@ -267,7 +268,6 @@ font-size: 12px;
   margin: 0.5em;
   padding: 1em 1.5em 0em 1.5em;
 }
-
 
 .titrepluspopulaires h2{
   font-size: 18px;
@@ -299,7 +299,7 @@ font-size: 12px;
   display: -webkit-inline-flex;
 }
 
-.trendbox:hover{
+#trendbox:hover{
   transform:scale(1.05);
   transition: all 0.2s ease-in-out;
 }
