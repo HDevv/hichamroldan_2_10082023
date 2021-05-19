@@ -304,7 +304,7 @@ font-size: 12px;
   transition: all 0.2s ease-in-out;
 }
 
-#pluspopulaires img {
+#pluspopulaires img{
   width: 40%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -475,7 +475,7 @@ a{
 
 /*--------IPAD--------*/
 
-@media screen and (min-width: 731px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
   .corps{
     flex-direction: column-reverse;
   }
@@ -489,4 +489,29 @@ a{
     width: 100%;
     padding: 0%;
   }
+  #pluspopulaires .trendbox{
+    width: 50%;
+    margin: 0em 1em 1em 1em;
+  }
+  .titrepluspopulaires{
+    padding: 0em 1em 1em 1em;
+  }
+  .hébergements{
+    width: 100%;
+    margin-top: 2em;
+    padding: 0em;
+  }
+  #MaRecherche{
+    height: 42px;
+  }
+
+  .conteneurbox{
+    display: block;
+  }
+  .premiereligne, .secondeligne{
+    flex-direction: initial;
+    width: 100%;
+  }
+  
+
 }
