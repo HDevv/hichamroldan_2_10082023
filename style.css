@@ -354,3 +354,52 @@ font-size: 12px;
   width: 50%;
 }
 
+.premierecolonne{
+  width: 50%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.secondecolonne{
+  width: 50%;
+  margin-left: 2em;
+}
+
+.bigbox{
+  width: 50%;
+}
+
+.activitésbox img{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.activitésbox .box1 img{
+  height: 220px;
+}
+
+.activitésbox .box2 img{
+  height: 140px;
+}
+
+.bigbox, .box1, .box2{
+  box-shadow: 4px 4px 8px rgb(190, 189, 189);
+  border-radius: 15px;
+  padding-bottom: 0.5em;
+}
+
+.premierecolonne .box1{
+  margin-bottom: 2em;
+}
+
+.secondecolonne .box2{
+  margin-top: 2em;
+}
+
+.activitésbox h3{
+  background-color: white;
+  padding-left: 10px;
+  font-size: 14px;
+}
