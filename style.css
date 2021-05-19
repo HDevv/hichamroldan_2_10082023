@@ -299,7 +299,7 @@ font-size: 12px;
   display: -webkit-inline-flex;
 }
 
-#trendbox:hover{
+.pluspopulaires:hover{
   transform:scale(1.05);
   transition: all 0.2s ease-in-out;
 }
