@@ -403,3 +403,34 @@ font-size: 12px;
   padding-left: 10px;
   font-size: 14px;
 }
+
+/*-------FOOTER------*/
+
+footer{
+  background-color: #F2F2F2;
+  display: flex;
+  margin-top: 2em;
+}
+
+.colonnefooter{
+  width: 33%;
+}
+
+.colonnefooter ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.footerbox li{
+  line-height: 30px;
+  font-weight: bolder;
+}
+
+.footerbox li :hover{
+  color: #0065fc;
+}
+
