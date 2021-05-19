@@ -446,29 +446,47 @@ a{
     display: flex;
   }  
 
-.contentbox .box{
-  width: 80%;
-}
+  .contentbox .box{
+  width: 80%; 
+  }
 
-#pluspopulaires .trendbox{
+  #pluspopulaires .trendbox{
   width: 80%;
   height: 200px;
-}
+  } 
 
-.premiereligne, .secondeligne{
+  .premiereligne, .secondeligne{
   flex-direction: column;
   width: 50%;
-}
+  }
 
-.hébergements{
+  .hébergements{
   width: 60%;
-}
+  }
 
-#pluspopulaires{
+  #pluspopulaires{
   width: 40%;
-}
+  }
 
-#pluspopulaires img{
+  #pluspopulaires img{
   height: 100%;
+  }
 }
 
+/*--------IPAD--------*/
+
+@media screen and (min-width: 731px) and (max-width: 1024px){
+  .corps{
+    flex-direction: column-reverse;
+  }
+
+  #pluspopulaires{
+    width: 100%;
+    margin: 0px;
+  }
+  #pluspopulaires .conteneurbox{
+    flex-direction: initial;
+    width: 100%;
+    padding: 0%;
+  }
+}
