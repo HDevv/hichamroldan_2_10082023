@@ -454,3 +454,20 @@ a{
   width: 80%;
   height: 200px;
 }
+
+.premiereligne, .secondeligne{
+  flex-direction: column;
+  width: 50%;
+}
+
+.hébergements{
+  width: 60%;
+}
+
+#pluspopulaires{
+  width: 40%;
+}
+
+#pluspopulaires img{
+  height: 100%;
+}
