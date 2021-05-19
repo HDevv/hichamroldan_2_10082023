@@ -475,7 +475,7 @@ a{
 
 /*--------IPAD--------*/
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .corps{
     flex-direction: column-reverse;
   }
@@ -504,14 +504,17 @@ a{
   #MaRecherche{
     height: 42px;
   }
-
-  .conteneurbox{
+  .contentbox{
     display: block;
   }
   .premiereligne, .secondeligne{
     flex-direction: initial;
     width: 100%;
   }
-  
+  .contentbox .box{
+    margin: 1em 1em 0em;
+  }
+
+
 
 }
