@@ -425,12 +425,32 @@ a{
   color: black;
 }
 
-.footerbox li{
+.colonnefooter li{
   line-height: 30px;
   font-weight: bolder;
 }
 
-.footerbox li :hover{
+.colonnefooter li :hover{
   color: #0065fc;
 }
 
+.colonnefooter .footer_li{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*------MEDIA QUERIES-------*/
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .conteneurbox{
+    display: flex;
+  }  
+
+.contentbox .box{
+  width: 80%;
+}
+
+#pluspopulaires .trendbox{
+  width: 80%;
+  height: 200px;
+}
