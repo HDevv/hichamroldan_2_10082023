@@ -3,7 +3,7 @@
 body{
     font-family: 'Raleway';
     src: url('Raleway');
-    margin: 0px;
+    margin: 2em;
 }
 
 .content{
@@ -515,6 +515,47 @@ a{
     margin: 1em 1em 0em;
   }
 
-
-
+/*-----Activités------*/
+.premierecolonne{
+  width: 100%;
+  margin-right: 0em;
+  margin-left: 0px;
+}
+.premierecolonne .box1{
+  margin-bottom: 0px;
+}
+.second-column .box1{
+  margin-right: 0px;
+}
+.secondecolonne{
+  width: 100%;
+  margin-left: 0px;
+}
+.activitésbox img{
+  height: 200px;
+}
+.moitié{
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.activitésbox .box1 img{
+  height: 200px;
+}
+.activitésbox .box2 img{
+  height: 200px;
+}
+.box2{
+  margin: 0px;
+  margin-top: 2em; 
+}
+.box1{
+  margin-top: 2em;
+  
+}
+.bigbox{
+  width: 100%;
+}
 }
