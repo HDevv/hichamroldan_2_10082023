@@ -720,7 +720,7 @@ a{
 
     #pluspopulaires .titrepluspopulaires i{
       font-size: 20px;
-      padding-left: 15px;
+      padding-right: 20px;
     }
 
     .titrepluspopulaires h2{
@@ -738,7 +738,53 @@ a{
       margin-bottom: 2em;
     }
 
-    
+    .menutexte h3, .menutexte p{
+      font-size: 16px;
+    }
+
+    .menutexte .étoilesprixbox p{
+      margin: 0px;
+    }
+
+    /*------Activitées-------*/
+
+    .Activités{
+      margin-top: 2em;
+    }
+
+    .Activités h2{
+      padding-left: 2em;
+    }
+
+    .activitésbox{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .moitié{
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+
+    .premierecolonne, .secondecolonne{
+      flex-direction: column;
+      width: 80%;
+      margin: 0px;
+    }
+
+    .activitésbox img, .activitésbox .box2 img{
+      height: 220px;
+    }
+
+    .bigbox{
+      width: 80%;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+    .box1, .box2{
+      width: 100%;
+    }
 
 
 
