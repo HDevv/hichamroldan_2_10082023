@@ -41,11 +41,11 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             </div>
-        <form>
+        <form method="post" action="/action_page.php">
+            <label for="map"><a href=""></a><i class="fas fa-map-marker-alt"></i></label>
             <div class="Recherche"></div>
-            <i class="fas fa-map-marker-alt"></i>
-            <input type="search" id="MaRecherche" name="Marseille" placeholder="Marseille,France"><button class="submit">Rechercher</button>
-            <i class="fas fa-search searchIcon"></i>
+            <input id="map" size="25" maxlength="50" type="text" id="MaRecherche" name="location" value="Marseille, France"/>
+            <input type="submit" value="Rechercher"/>
             </div>
         </form>
         </div>

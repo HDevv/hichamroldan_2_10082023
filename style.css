@@ -96,6 +96,13 @@ h1{
     padding: 12.9px;
 }
 
+/*Filtre et recherche*/
+label{
+  background-color: #F2F2F2;
+  padding: 1em 1em 0.9em 1em;
+  border-radius: 0.8em 0 0 0.8em;
+  font-size: 00.8em;
+}
 .submit{
     padding: 13px;
     font-size: 12px;
