@@ -615,7 +615,7 @@ a{
       color: blue;
     }
 
-    /*--------- RECHERCHE---------*/
+    /*---------Recherche---------*/
 
     .Subheader{
       margin: 0px 20px 0px 20px;
@@ -643,5 +643,25 @@ a{
     .boutonfiltre{
       margin-top: 10px;
     }
+    .boutonfiltre a{
+      font-size: 1.2em;
+    }
+
+    .Filtres{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .Filtrepicto[
+      flex-direction: columns;
+      align-items: initial;
+    ]
+
+    /*-------Hébergements------*/
+
+    .fondgris{
+      flex-direction: column-reverse;
+    }
+
+  }
 
 
