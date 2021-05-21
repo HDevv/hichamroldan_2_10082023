@@ -27,9 +27,58 @@ h2, input
   font-size: 1em;
   font-weight: bold;
 }
+h3{
+  font-size: 0.9em;
+}
 p, li{
   font-size: 0.8em;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*aside*/
+aside
+{
+    background-color: #F2F2F2;
+    border-radius: 1em;
+    width: 30%;
+    padding: 1.3em 2em 1.3em 2em;
+}
+
+#asideHeader            /*space between title and icon*/
+{
+    display: flex;
+    justify-content: space-between;
+}
+#asideHeader div            /*icon centered*/
+{ 
+    align-self: center;
+}
+aside figure        /*management block img + legend*/
+{
+    background-color: #ffffff;
+    border-radius: 1em; 
+    border: 5px #ffffff solid;
+    overflow: hidden;
+    width: 325px;
+    height: 134px;
+    margin: 0;
+}
+
+aside a         /*placement img & text side by side*/
+{
+    display: flex;
+}
+
+aside img
+{
+  max-width: 127px;
+  max-height: 134px; 
+  border-radius: 1em 0 0 1em; 
+}
+
 /*-------NAVIGATION------*/
 
 .navigateur {
