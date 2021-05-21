@@ -3,7 +3,8 @@
 body{
     font-family: 'Raleway', sans-serif;
     width: 1440px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content{
@@ -37,10 +38,6 @@ p, li{
     margin-top: 10px;
 }
 
-.navigateur headerImg {
-    height: 50px;
-}
-
 .menu {
     display: flex;
 }
@@ -51,12 +48,6 @@ nav ul{
 }
 nav li{
     list-style: none;
-}
-
-.hebergementdecoration{
-  color: #0065FC;
-  border-top: 1px #0065FC solid;
-  padding: 2em;
 }
 nav a {
     color: blue;
@@ -137,6 +128,35 @@ input[type="submit"] /*bouton recherche*/
 form{
   margin-bottom: 1em;
 } 
+/*css pour le header*/
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.hebergementDecoration
+{
+    color: #0065FC;
+    border-top: 1px #0065FC solid;
+    padding: 2em;
+}
+
+#registerLink
+{
+    color: #0065FC;
+    font-weight: bold;
+    border: none;
+}
 
 /*css pour les filtres*/
 
