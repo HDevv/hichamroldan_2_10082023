@@ -1,9 +1,9 @@
 /*--------GENERAL--------*/
 
 body{
-    font-family: 'Raleway';
-    src: url('Raleway');
-    margin: 2em;
+    font-family: 'Raleway', sans-serif;
+    width: 1440px;
+    margin: auto;
 }
 
 .content{
@@ -17,7 +17,18 @@ body{
 .star .gris, #pluspopulaires .gris{
     color: #dad9d7;
 }
-
+/*general polices*/
+h1{
+  font-size: 1.2em;
+}
+h2, input
+{
+  font-size: 1em;
+  font-weight: bold;
+}
+p, li{
+  font-size: 0.8em;
+}
 /*-------NAVIGATION------*/
 
 .navigateur {
@@ -97,12 +108,12 @@ h1{
 }
 
 /*Filtre et recherche*/
-div{
+ #searchAndFilter div{
   display: flex;
   align-items: center;
 }
 
-label{
+#searchAndFilter label{
   background-color: #F2F2F2;
   padding: 1em 1em 0.9em 1em;
   border-radius: 0.8em 0 0 0.8em;
