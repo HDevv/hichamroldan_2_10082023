@@ -342,6 +342,20 @@ font-size: 12px;
   border-radius: 20px;
   width: 1em;
 }
+/*Figure*/
+
+figure{
+  background-color: #ffffff;
+  width: 325px;
+  height: 134px;
+  border-radius: 1em;
+  border: 5px #ffffff solid;
+  overflow: hidden;
+  margin: 0;
+}
+img{
+  
+}
 
 /*------HEBERGEMENTS------*/
 
