@@ -614,81 +614,262 @@ font-weight: bold;
 /*------MEDIA QUERIES-------*/
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-body{
-  display: flex;
-  background-color: white;
-}  
+  .conteneurbox{
+    display: flex;
+  }  
 
+  .contentbox .box{
+  width: 80%; 
+  }
+
+  #pluspopulaires .trendbox{
+  width: 80%;
+  height: 200px;
+  } 
+
+  .premiereligne, .secondeligne{
+  flex-direction: column;
+  width: 50%;
+  }
+
+  .hébergements{
+  width: 60%;
+  }
+
+  #pluspopulaires{
+  width: 40%;
+  }
+
+  #pluspopulaires img{
+  height: 100%;
+  }
 }
 
 /*--------IPAD--------*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-body{
-  flex-direction: column-reverse;
-  background-color: blue;
-}
+  .corps{
+    flex-direction: column-reverse;
+  }
 
-
+  #pluspopulaires{
+    width: 100%;
+    margin: 0px;
+  }
+  #pluspopulaires .conteneurbox{
+    flex-direction: initial;
+    width: 100%;
+    padding: 0%;
+  }
+  #pluspopulaires .trendbox{
+    width: 50%;
+    margin: 0em 1em 1em 1em;
+  }
+  .titrepluspopulaires{
+    padding: 0em 1em 1em 1em;
+  }
+  .hébergements{
+    width: 100%;
+    margin-top: 2em;
+    padding: 0em;
+  }
+  #MaRecherche{
+    height: 42px;
+  }
+  .contentbox{
+    display: block;
+  }
+  .premiereligne, .secondeligne{
+    flex-direction: initial;
+    width: 100%;
+  }
+  .contentbox .box{
+    margin: 1em 1em 0em;
+  }
 
 /*-----Activités------*/
 .premierecolonne{
-width: 100%;
-margin-right: 0em;
-margin-left: 0px;
+  width: 100%;
+  margin-right: 0em;
+  margin-left: 0px;
 }
 .premierecolonne .box1{
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 .second-column .box1{
-margin-right: 0px;
+  margin-right: 0px;
 }
 .secondecolonne{
-width: 100%;
-margin-left: 0px;
+  width: 100%;
+  margin-left: 0px;
 }
 .activitésbox img{
-height: 200px;
+  height: 200px;
 }
 .moitié{
-flex-direction: column;
-width: 100%;
-margin-top: 2em;
-padding-right: 1em;
-padding-left: 1em;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 .activitésbox .box1 img{
-height: 200px;
+  height: 200px;
 }
 .activitésbox .box2 img{
-height: 200px;
+  height: 200px;
 }
 .box2{
-margin: 0px;
-margin-top: 2em; 
+  margin: 0px;
+  margin-top: 2em; 
 }
 .box1{
-margin-top: 2em;
-
+  margin-top: 2em;
+  
 }
 .bigbox{
-width: 100%;
+  width: 100%;
 }
 }
 
-/*-----------iPHONE 8---------*/
+/*-----------iPHONE X---------*/
 
-@media only screen and (max-width: 600px) 
-{
-body{
-  background-color: red;
-}
+@media screen and (max-width:730px){
 
-}
+  .content{
+    padding: 0px;
+  }
+
+.logo{
+  padding: 10px 0px 0px 20px;
+} 
+
+   header a {
+     font-size: 1.3em;
+     display: block;
+   }
+
+   .navigateur{
+     display: block;
+     width: 100%;
+   }
+   .sinscrire{
+     position: absolute;
+     top: 2em;
+     right: 1.5em;
+   }
+
+    nav{
+      margin-top: 30px;
+      width: 100%;
+    }
+    nav a{
+      padding: 0px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #0065fc;
+    }
+    nav ul{
+      padding-left: 0px;
+      margin: 0px;
+    }
+    nav li{
+      width: 50%;
+      text-align: center;
+    }
+    nav li:hover{
+      border-top: none;
+    }
+    nav li:hover{
+      border-top: none;
+    }
+    nav li:hover{
+      border-bottom: 2px solid #0065fc;
+      color: blue;
+    }
+
+    /*---------Recherche---------*/
+
+    .Subheader{
+      margin: 0px 20px 0px 20px;
+    }
+    h1{
+      font-size: 1.5em;
+    }
+    .textheader p{
+      font-size: 1.2em;
+    }
+    .submit{
+      display: none;
+    }
+    .Recherche .fa-search{
+      display: initial;
+      color: #F2F2F2;
+      background-color: #0065FC;
+      border-radius: 0px 15px 15px 0px;
+      cursor: pointer;
+    }
+    #MaRecherche {
+      width: 100%;
+      height: 42px;
+    }
+    .boutonfiltre{
+      margin-top: 10px;
+    }
+    .boutonfiltre a{
+      font-size: 1.2em;
+    }
+
+    .Filtres{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .Filtrepicto[
+      flex-direction: columns;
+      align-items: initial;
+    ]
+
+    /*-------Hébergements------*/
+
+    .fondgris{
+      flex-direction: column-reverse;
+    }
+    .contentbox{
+      width: 100%;
+    }
+    .hébergements{
+      background-color: initial;
+      width: 100%;
+      padding: 0px;
+    }
+    .premiereligne, .secondeligne{
+      flex-direction: column;
+      align-items: center;
+    }
+    .contentbox .box{
+      width: 80%;
+    }
+    .menu h2{
+      font-size: 1.6em;
+      margin-left: 1.6em;
+    }
+    .box h3{
+      font-size: 20px;
+      padding-left: 10px;
+    }
+    .box p{
+      font-size: 16px;
+      margin: 0px;
+    }
+    .afficherplus{
+      font-size: 14px;
+      margin-top: 30px;
+      padding-left: 3em;
+    }
+    .box .étoilesprix{
+      padding: 0px 0px 10px 10px;
+    }
+  }
 
 
-
-
-}
 
 
