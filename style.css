@@ -622,7 +622,7 @@ font-weight: bold;
   width: 80%; 
   }
 
-  #pluspopulaires .trendbox{
+  #asideheader .trendbox{
   width: 80%;
   height: 200px;
   } 
@@ -636,11 +636,11 @@ font-weight: bold;
   width: 60%;
   }
 
-  #pluspopulaires{
+  #asideheader{
   width: 40%;
   }
 
-  #pluspopulaires img{
+  #asideheader img{
   height: 100%;
   }
 }
@@ -652,16 +652,16 @@ font-weight: bold;
     flex-direction: column-reverse;
   }
 
-  #pluspopulaires{
+  #asideheader{
     width: 100%;
     margin: 0px;
   }
-  #pluspopulaires .conteneurbox{
+  #asideheader .conteneurbox{
     flex-direction: initial;
     width: 100%;
     padding: 0%;
   }
-  #pluspopulaires .trendbox{
+  #asideheader .trendbox{
     width: 50%;
     margin: 0em 1em 1em 1em;
   }
@@ -673,7 +673,7 @@ font-weight: bold;
     margin-top: 2em;
     padding: 0em;
   }
-  #MaRecherche{
+  #map{
     height: 42px;
   }
   .contentbox{
@@ -732,7 +732,7 @@ font-weight: bold;
 }
 }
 
-/*-----------iPHONE X---------*/
+/*-----------iPHONE 8---------*/
 
 @media screen and (max-width:730px){
 
@@ -753,7 +753,7 @@ font-weight: bold;
      display: block;
      width: 100%;
    }
-   .sinscrire{
+   .registerLink{
      position: absolute;
      top: 2em;
      right: 1.5em;
