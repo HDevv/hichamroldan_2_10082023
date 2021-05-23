@@ -798,7 +798,7 @@ font-weight: bold;
     #searchAndFilter p{
       font-size: 1.2em;
     }
-    .submit{
+    .Rechercher{
       display: none;
     }
     .Recherche .fa-search{
@@ -812,14 +812,14 @@ font-weight: bold;
       width: 100%;
       height: 42px;
     }
-    .boutonfiltre{
+    #filterSelection{
       margin-top: 10px;
     }
-    .boutonfiltre a{
+    #filterSelection h2{
       font-size: 1.2em;
     }
 
-    .Filtres{
+    .filtresbleus{
       margin-left: 20px;
       margin-right: 20px;
     }
