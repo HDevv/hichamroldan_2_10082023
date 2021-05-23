@@ -768,34 +768,34 @@ font-weight: bold;
       padding-bottom: 20px;
       border-bottom: 2px solid #0065fc;
     }
-    nav ul{
+    nav p{
       padding-left: 0px;
       margin: 0px;
     }
-    nav li{
+    nav p{
       width: 50%;
       text-align: center;
     }
-    nav li:hover{
+    nav p:hover{
       border-top: none;
     }
-    nav li:hover{
+    nav p:hover{
       border-top: none;
     }
-    nav li:hover{
+    nav p:hover{
       border-bottom: 2px solid #0065fc;
       color: blue;
     }
 
     /*---------Recherche---------*/
 
-    .Subheader{
+    .searchAndFilter{
       margin: 0px 20px 0px 20px;
     }
     h1{
       font-size: 1.5em;
     }
-    .textheader p{
+    #searchAndFilter p{
       font-size: 1.2em;
     }
     .submit{
