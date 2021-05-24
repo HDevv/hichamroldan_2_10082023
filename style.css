@@ -821,14 +821,10 @@ font-weight: bold;
       font-size: 1.2em;
     }
 
-    .filtresbleus{
+    .filtresbleus{    /*filter line*/
       margin-left: 20px;
       margin-right: 20px;
     }
-    .Filtrepicto[
-      flex-direction: columns;
-      align-items: initial;
-    ]
 
     /*-------Hébergements------*/
 
