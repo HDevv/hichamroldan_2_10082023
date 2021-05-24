@@ -648,7 +648,7 @@ font-weight: bold;
         .premierecolonne .box1{
           margin-bottom: 0px;
         }
-        .second-column .box1{
+        .secondecolonne .box1{
           margin-right: 0px;
         }
         .secondecolonne{
@@ -725,6 +725,9 @@ font-weight: bold;
     }
   }
 
-
+/*FOOTER*/
+.colonnefooter{
+  width: 100%;
+}
 
 
