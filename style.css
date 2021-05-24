@@ -54,16 +54,6 @@ aside
 { 
   align-self: center;
 }
-aside figure        /*management block img + legend*/
-{
-  background-color: #ffffff;
-  border-radius: 1em; 
-  border: 5px #ffffff solid;
-  overflow: hidden;
-  width: 325px;
-  height: 134px;
-  margin: 0;
-}
 
 aside a         /*placement img & text side by side*/
 {
@@ -77,77 +67,17 @@ max-height: 134px;
 border-radius: 1em 0 0 1em; 
 }
 
-figcaption{
-  margin-left: 10px;
-}
-
 /*-------NAVIGATION------*/
 
-.navigateur {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-
-.menu {
+.Menu {
   display: flex;
 }
 
-nav ul{
-  display: flex;
-  align-items: center;
-}
-nav li{
-  list-style: none;
-}
 nav a {
   color: blue;
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 3.2em;
-}
-
-nav li :hover {
-  border-top: 2px solid #0065fc;
-  color: #0065fc;
-}
-
-.sinscrire {
-  display: flex;
-  align-items: center;
-  padding-bottom: 8px;
-}
-
-.sinscrire a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #0065fc;
-  padding-left: 2em;
-}
-
-/*------RECHERCHE-----*/
-
-.subheader{
-  padding-top: 1.5em;
-}
-
-}
-h1{
-  font-size: 20px;
-}
-
-.Recherche{
-  display: flex;
-  align-items: center;
-  margin: 10px 0 30px 0;
-}
-
-.Recherche i {
-  background-color: #f2f2f2;
-  padding: 13px 15px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  padding: 12.9px;
 }
 
 /*Filtre et recherche*/
