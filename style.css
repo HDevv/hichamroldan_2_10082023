@@ -567,7 +567,7 @@ font-weight: bold;
      display: block;
      width: 100%;
    }
-   .registerLink{
+   #registerLink{
      position: absolute;
      top: 2em;
      right: 1.5em;
@@ -577,7 +577,7 @@ font-weight: bold;
       margin-top: 30px;
       width: 100%;
     }
-    nav a{
+    ;.hebergementDecoration{
       padding: 0px;
       padding-bottom: 20px;
       border-bottom: 2px solid #0065fc;
