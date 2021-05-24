@@ -558,7 +558,7 @@ font-weight: bold;
   padding: 10px 0px 0px 20px;
 } 
 
-   header a {
+   .hebergementDecoration{
      font-size: 1.3em;
      display: block;
    }
@@ -638,50 +638,7 @@ font-weight: bold;
       margin-right: 20px;
     }
 
-        /*ACTIVITES*/ 
-  
-        .premierecolonne{
-          width: 100%;
-          margin-right: 0em;
-          margin-left: 0px;
-        }
-        .premierecolonne .box1{
-          margin-bottom: 0px;
-        }
-        .secondecolonne .box1{
-          margin-right: 0px;
-        }
-        .secondecolonne{
-          width: 100%;
-          margin-left: 0px;
-        }
-        .activitésbox img{
-          height: 200px;
-        }
-        .moitié{
-          flex-direction: column;
-          width: 100%;
-          margin-top: 2em;
-          padding-right: 1em;
-          padding-left: 1em;
-        }
-        .activitésbox .box1 img{
-          height: 200px;
-        }
-        .activitésbox .box2 img{
-          height: 200px;
-        }
-        .box2{
-          margin: 0px;
-          margin-top: 2em; 
-        }
-        .box1{
-          margin-top: 2em;
-          
-        }
-        .bigbox{
-          width: 100%;
-        }    
+        
 
     /*-------Hébergements------*/
 
@@ -723,11 +680,64 @@ font-weight: bold;
     .box .étoilesprix{
       padding: 0px 0px 10px 10px;
     }
+    
+    
+    /*ACTIVITES*/ 
+  
+    .premierecolonne{
+    width: 100%;
+    margin-right: 0em;
+    margin-left: 0px;
+    }
+    .premierecolonne .box1{
+    margin-bottom: 0px;
+    }
+    .secondecolonne .box1{
+     margin-right: 0px;
+    }
+    .secondecolonne{
+    width: 100%;
+    margin-left: 0px;
+    }
+    .activitésbox{    /*new*/
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .activitésbox img{
+    height: 200px;
+    }
+    .moitié{
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      margin-top: 2em;
+      padding-right: 1em;
+      padding-left: 1em;
+    }
+    .activitésbox .box1 img{
+      height: 200px;
+    }
+        .activitésbox .box2 img{
+          height: 200px;
+        }
+        .box2{
+          margin: 0px;
+          margin-top: 2em; 
+        }
+        .box1{
+          margin-top: 2em;
+          
+        }
+        .bigbox{
+          width: 100%;
+        }  
   }
 
 /*FOOTER*/
 .colonnefooter{
   width: 100%;
+  flex-direction: column;
 }
 
 
