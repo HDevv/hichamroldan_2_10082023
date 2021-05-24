@@ -189,64 +189,6 @@ header nav
   width: 10em;
 }
 
-.Recherche {
-display: none;
-}
-
-/* ------FILTRES------- */
-
-.list-filtre {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
-.titrefiltre{
-padding-right: 1em;
-}
-
-.Filtrepicto {
-  display: flex;
-  align-items: center;   
-}
-
-.filtreconteneur {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center; 
-}
-
-.boutonfiltre {
- display: flex;
- align-items: center;
- margin-right: 2em;
- border: 2px solid #f2f2f2;
- border-radius: 30px; 
- height: 2.5em;
-}
-.filtreconteneur :hover{
-color:blue;
-background-color:#DEEBFF;
-}
-
-.boutonfiltre a {
-text-decoration: none;
-padding-right: 1em;
-padding-left: 1em;
-}
-
-.Filtrepicto i {
-background-color: #DEEBFF;
-padding: 0.8em;
-border-radius: 30px;
-color: #0065fc;
-}
-
-.Infofiltre {
-display: flex;
-align-items: center;
-margin-top: 2em;
-}
 
 /*------HEBERGEMENTS------*/
 
@@ -275,7 +217,7 @@ margin-left: 1em;
 display: flex;
 }
 
-.box:hover {
+.box :hover {
 transform: scale(1.05);
 transition: all 0.2s ease-in-out;
 }
@@ -360,20 +302,6 @@ display: -webkit-inline-flex;
 .pluspopulaires:hover{
 transform:scale(1.05);
 transition: all 0.2s ease-in-out;
-}
-
-#pluspopulaires img{
-width: 40%;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
-object-fit: cover;
-}
-
-#pluspopulaires{
-background-color: #f2f2f2;
-margin-left: 1em;
-border-radius: 15px;
-width: 33%;
 }
 
 .menutexte{
@@ -709,6 +637,51 @@ font-weight: bold;
       margin-left: 20px;
       margin-right: 20px;
     }
+
+        /*ACTIVITES*/ 
+  
+        .premierecolonne{
+          width: 100%;
+          margin-right: 0em;
+          margin-left: 0px;
+        }
+        .premierecolonne .box1{
+          margin-bottom: 0px;
+        }
+        .second-column .box1{
+          margin-right: 0px;
+        }
+        .secondecolonne{
+          width: 100%;
+          margin-left: 0px;
+        }
+        .activitésbox img{
+          height: 200px;
+        }
+        .moitié{
+          flex-direction: column;
+          width: 100%;
+          margin-top: 2em;
+          padding-right: 1em;
+          padding-left: 1em;
+        }
+        .activitésbox .box1 img{
+          height: 200px;
+        }
+        .activitésbox .box2 img{
+          height: 200px;
+        }
+        .box2{
+          margin: 0px;
+          margin-top: 2em; 
+        }
+        .box1{
+          margin-top: 2em;
+          
+        }
+        .bigbox{
+          width: 100%;
+        }    
 
     /*-------Hébergements------*/
 
