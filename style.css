@@ -135,6 +135,7 @@ nav li :hover {
   padding-top: 1.5em;
 }
 
+}
 h1{
   font-size: 20px;
 }
@@ -159,7 +160,7 @@ display: flex;
 align-items: center;
 }
 
-#searchAndFilter label{
+#searchAndFilter label{  /*logo localisation*/
 background-color: #F2F2F2;
 padding: 1em 1em 0.9em 1em;
 border-radius: 0.8em 0 0 0.8em;
@@ -172,7 +173,7 @@ border: 1px #F2F2F2 solid;
 padding: 0.5em 0.7em 0.6em 0.7em;
 margin: 0 -0.3em 0 -0.3em;
 }
-input[type="submit"] /*bouton recherche*/
+input[type="submit"] /*bouton rechercher*/
 {
 background-color: #0065FC;
 border: none;
