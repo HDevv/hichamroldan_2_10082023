@@ -7,15 +7,11 @@ body{
   margin-right: auto;
 }
 
-.content{
-  padding: 2em;
-} 
-
-.corps i, #pluspopulaires i{
+.body i, #trend i{
   color: #0062fc;
   font-size: 12px;
 }
-.star .gris, #pluspopulaires .gris{
+.star .gris, .gris{
   color: #dad9d7;
 }
 /*general polices*/
@@ -49,12 +45,12 @@ aside
   padding: 1.3em 2em 1.3em 2em;
 }
 
-#asideHeader            /*space between title and icon*/
+#asideheader            /*space between title and icon*/
 {
   display: flex;
   justify-content: space-between;
 }
-#asideHeader div            /*icon centered*/
+#asideheader div            /*icon centered*/
 { 
   align-self: center;
 }
@@ -263,16 +259,7 @@ header nav
   width: 10em;
 }
 
-#MaRecherche {
-  border: 2px solid #f2f2f2;
-  padding: 0.85em;  
-  margin: 0px;
-}
-::placeholder{
-color: black;
-font-size: 16px;
-}
-.Recherche .fa-search{
+.Recherche {
 display: none;
 }
 
