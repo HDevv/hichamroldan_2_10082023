@@ -650,7 +650,7 @@ font-weight: bold;
 /*--------IPAD--------*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .corps{
+  .body{
     flex-direction: column-reverse;
   }
 
