@@ -554,8 +554,13 @@ font-weight: bold;
 
 @media screen and (max-width:730px){
 
-  .content{
-    padding: 0px;
+  .body{
+    padding-left: 0px;
+    position: static;
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    padding: 0 20px;
   }
 
 .logo{
