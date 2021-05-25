@@ -277,7 +277,7 @@ padding: 1em 1.5em 0em 1.5em;
 font-size: 18px;
 }
 
-#pluspopulaires .titrepluspopulaires i{
+.titrepluspopulaires i{
 color: black;
 }
 
@@ -303,7 +303,7 @@ width: 100%;
 display: -webkit-inline-flex;
 }
 
-.pluspopulaires:hover{
+.pluspopulaires:hover {
 transform:scale(1.05);
 transition: all 0.2s ease-in-out;
 }
@@ -420,7 +420,7 @@ line-height: 30px;
 font-weight: bolder;
 }
 
-.colonnefooter li :hover{
+.colonnefooter li:hover{
 color: #0065fc;
 }
 
@@ -440,7 +440,7 @@ font-weight: bold;
   width: 80%; 
   }
 
-  #asideheader .trendbox{
+  .titrepluspopulaires .trendbox{
   width: 80%;
   height: 200px;
   } 
@@ -450,15 +450,15 @@ font-weight: bold;
   width: 50%;
   }
 
-  .hébergements{
+  .hebergements{
   width: 60%;
   }
 
-  #asideheader{
+  .titrepluspopulaires{
   width: 40%;
   }
 
-  #asideheader img{
+  .titrepluspopulaires img{
   height: 100%;
   }
 }
@@ -577,7 +577,6 @@ font-weight: bold;
    }
 
     header nav{
-      text-align: center;
       margin-top: 30px;
       width: 100%;
     }
