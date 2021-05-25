@@ -217,13 +217,17 @@ margin-left: 1em;
 display: flex;
 }
 
-.box :hover {
+.box:hover {
 transform: scale(1.05);
 transition: all 0.2s ease-in-out;
 }
 
 .secondeligne {
 display: flex; 
+}
+
+.fondgris{
+  display: flex;
 }
 
 .contentbox .box {
