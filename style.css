@@ -649,6 +649,14 @@ font-weight: bold;
     .fondgris{
       flex-direction: column-reverse;
     }
+
+    ;.box{
+      position: static;
+      margin-bottom: 1em;
+      width: 100%;
+      display: block;
+    }
+
     .contentbox{
       width: 100%;
     }
