@@ -339,7 +339,7 @@ font-size: 18px;
 display: flex;
 }
 
-.moitié{
+.moitie{
 display: flex;
 width: 50%;
 }
@@ -506,6 +506,7 @@ font-weight: bold;
   }
 
 /*-----Activités------*/
+
 .premierecolonne{
   width: 100%;
   margin-right: 0em;
@@ -524,7 +525,7 @@ font-weight: bold;
 .activitésbox img{
   height: 200px;
 }
-.moitié{
+.moitie{
   flex-direction: column;
   width: 100%;
   margin-top: 2em;
@@ -659,7 +660,7 @@ font-weight: bold;
     .contentbox{
       width: 100%;
     }
-    .hébergements{
+    .hebergements{
       background-color: initial;
       width: 100%;
       padding: 0px;
@@ -719,7 +720,7 @@ font-weight: bold;
     .activitésbox img{
     height: 200px;
     }
-    .moitié{
+    .moitie{
       flex-direction: column;
       width: 100%;
       align-items: center;
