@@ -467,7 +467,7 @@ font-weight: bold;
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .body{
-    flex-direction: column-reverse;
+    padding: auto;
   }
 
   #asideheader{
@@ -556,11 +556,12 @@ font-weight: bold;
 
   .body{  
     padding-left: 0px;
-    position: static;
+    position: absolute;
     margin-bottom: 1rem;
     display: block;
     width: 100%;
     padding: 0 20px;
+    overflow: hidden;
   }
 
 
