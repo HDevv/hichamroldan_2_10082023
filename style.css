@@ -554,7 +554,7 @@ font-weight: bold;
 
 @media screen and (max-width:730px){
 
-  .body{
+  .body{  
     padding-left: 0px;
     position: static;
     margin-bottom: 1rem;
@@ -563,26 +563,20 @@ font-weight: bold;
     padding: 0 20px;
   }
 
-.logo{
-  padding: 10px 0px 0px 20px;
-} 
 
-   .hebergementDecoration{
+    .logo .hebergementDecoration{
      font-size: 1.3em;
      display: block;
    }
 
-   .navigateur{
-     display: block;
-     width: 100%;
-   }
    #registerLink{
      position: absolute;
      top: 2em;
      right: 1.5em;
    }
 
-    nav{
+    header nav{
+      text-align: center;
       margin-top: 30px;
       width: 100%;
     }
@@ -703,8 +697,9 @@ font-weight: bold;
   
     .premierecolonne{
     width: 100%;
-    margin-right: 0em;
-    margin-left: 0px;
+    margin-right: 3em;
+    margin-left: 3em;
+    text-align: center;
     }
     .premierecolonne .box1{
     margin-bottom: 0px;
