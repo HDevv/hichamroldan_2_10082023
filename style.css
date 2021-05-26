@@ -45,12 +45,12 @@ aside
   padding: 1.3em 2em 1.3em 2em;
 }
 
-#asideheader            /*space between title and icon*/
+.titrepluspopulaires            /*space between title and icon*/
 {
   display: flex;
   justify-content: space-between;
 }
-#asideheader div            /*icon centered*/
+.titrepluspopulaires div            /*icon centered*/
 { 
   align-self: center;
 }
@@ -465,16 +465,16 @@ font-weight: bold;
     padding: auto;
   }
 
-  #asideheader{
+  .titrepluspopulaires{
     width: 100%;
     margin: 0px;
   }
-  #asideheader .conteneurbox{
+  .titrepluspopulaires .conteneurbox{
     flex-direction: initial;
     width: 100%;
     padding: 0%;
   }
-  #asideheader .trendbox{
+  .titrepluspopulaires .trendbox{
     width: 50%;
     margin: 0em 1em 1em 1em;
   }
