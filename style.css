@@ -3,8 +3,7 @@
 body{
   font-family: 'Raleway', sans-serif;
   width: 1440px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: auto;
 }
 
 .body i, #trend i{
@@ -395,6 +394,8 @@ footer{
 background-color: #F2F2F2;
 display: flex;
 margin-top: 2em;
+margin-left: 0px;
+margin-right: 0px;
 }
 
 .colonnefooter{
