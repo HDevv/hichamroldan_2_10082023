@@ -49,7 +49,7 @@ aside
 
 .titrepluspopulaires            /*space between title and icon*/
 {
-  display: flex;
+  display: flex; 
   justify-content: space-between;
 }
 .titrepluspopulaires div            /*icon centered*/
@@ -749,8 +749,8 @@ font-weight: bold;
         .bigbox{
           width: 100%;
         }  
-  }
-
+  
+}
 /*FOOTER*/
 .colonnefooter{
   width: 100%;
