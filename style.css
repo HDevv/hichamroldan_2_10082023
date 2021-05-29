@@ -5,7 +5,9 @@ body{
   margin: auto;
 }
 main{
-  margin: 95%;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .body i, #trend i{
   color: #0062fc;
@@ -117,7 +119,9 @@ header
   display: flex;
   justify-content: space-between;
   padding-top: 1em;
-  margin-left: ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
 }
 
 header nav
@@ -752,5 +756,7 @@ font-weight: bold;
   width: 100%;
   flex-direction: column;
 }
-
+footer{
+  width: 100%;
+}
 
