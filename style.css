@@ -2,10 +2,11 @@
 
 body{
   font-family: 'Raleway', sans-serif;
-  width: 95%;
   margin: auto;
 }
-
+main{
+  margin: 95%;
+}
 .body i, #trend i{
   color: #0062fc;
   font-size: 12px;
