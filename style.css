@@ -649,11 +649,9 @@ font-weight: bold;
     .fondgris{
       flex-direction: column-reverse;
       width: 100%;
-      background-color: transparent;
     }
 
-    ;.box{
-      position: static;
+    .box{
       margin-bottom: 1em;
       width: 100%;
       display: block;
@@ -663,7 +661,7 @@ font-weight: bold;
       width: 100%;
     }
     .hebergements{
-      background-color: initial;
+      flex-direction: column;
       width: 100%;
       align-items: center;
       margin-top: 2em;
@@ -705,7 +703,6 @@ font-weight: bold;
     width: 100%;
     margin-right: 3em;
     margin-left: 3em;
-    text-align: center;
     }
     .premierecolonne .box1{
     margin-bottom: 0px;
