@@ -651,15 +651,14 @@ font-weight: bold;
       width: 100%;
     }
 
-    .box{
-      margin-bottom: 1em;
-      width: 100%;
-      display: block;
+    .hébergements{
+      background: none;
     }
 
-    .contentbox{
-      width: 100%;
-    }
+    .box{
+      margin-bottom: 1em;
+      display: block;
+    }  
     .hebergements{
       flex-direction: column;
       width: 100%;
@@ -671,9 +670,10 @@ font-weight: bold;
     .premiereligne, .secondeligne{
       flex-direction: column;
       align-items: center;
+      width: 100%;
     }
     .contentbox .box{
-      width: 80%;
+      width: 100%;
     }
     .menu h2{
       font-size: 1.6em;
@@ -700,27 +700,26 @@ font-weight: bold;
     /*ACTIVITES*/ 
   
     .premierecolonne{
-    width: 100%;
-    margin-right: 3em;
-    margin-left: 3em;
+      width: 100%;
+      margin-right: 3em;
+      margin-left: 3em;
     }
     .premierecolonne .box1{
-    margin-bottom: 0px;
+      margin-bottom: 0px;
     }
     .secondecolonne .box1{
-     margin-right: 0px;
+      margin-right: 0px;
     }
     .secondecolonne{
-    width: 100%;
-    margin-left: 0px;
+      width: 100%;
+      margin-left: 0px;
     }
     .activitésbox{    /*new*/
       flex-direction: column;
       align-items: center;
     }
-
     .activitésbox img{
-    height: 200px;
+      height: 200px;
     }
     .moitie{
       flex-direction: column;
