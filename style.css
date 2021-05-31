@@ -649,6 +649,7 @@ font-weight: bold;
     .fondgris{
       flex-direction: column-reverse;
       width: 100%;
+      background-color: transparent;
     }
 
     ;.box{
@@ -656,10 +657,6 @@ font-weight: bold;
       margin-bottom: 1em;
       width: 100%;
       display: block;
-    }
-
-    .moitie{
-      width: 100%;
     }
 
     .contentbox{
@@ -752,6 +749,7 @@ font-weight: bold;
     .bigbox{
       width: 100%;
     }  
+    
     /*FOOTER*/
     .colonnefooter{
       width: 100%;
