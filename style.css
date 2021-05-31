@@ -648,6 +648,7 @@ font-weight: bold;
 
     .fondgris{
       flex-direction: column-reverse;
+      width: 100%;
     }
 
     ;.box{
