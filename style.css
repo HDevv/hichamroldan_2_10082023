@@ -667,8 +667,11 @@ font-weight: bold;
     .hebergements{
       background-color: initial;
       width: 100%;
-      padding: 0px;
-    }
+      align-items: center;
+      margin-top: 2em;
+      padding-right: 1em;
+      padding-left: 1em;
+    } 
     .premiereligne, .secondeligne{
       flex-direction: column;
       align-items: center;
@@ -737,32 +740,32 @@ font-weight: bold;
     }
     .activitésbox .box2 img{
       height: 200px;
-        }
-        .box2{
-          margin: 0px;
-          margin-top: 2em; 
-        }
-        .box1{
-          margin-top: 2em;
-          
-        }
-        .bigbox{
-          width: 100%;
-        }  
-      /*FOOTER*/
-        .colonnefooter{
-        width: 100%;
-        }
-
-        footer{
-        width: 100%;
-        flex-direction: column;
-        }
-        
-        .footer_li{
-          font-weight: bold;
-          list-style-type: none;
-        }
+    }
+    .box2{
+      margin: 0px;
+      margin-top: 2em; 
+    }
+    .box1{
+      margin-top: 2em;  
+    }
+    .bigbox{
+      width: 100%;
+    }  
+    /*FOOTER*/
+    .colonnefooter{
+      width: 100%;
+    }
+    footer{
+      width: 100%;
+      flex-direction: column;
+    }
+    .footer_li{
+      font-weight: bold;
+      list-style-type: none;
+    }
+    footer, ul{
+      list-style-type: none;
+    }
   
   
   
