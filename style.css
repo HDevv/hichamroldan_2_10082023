@@ -651,7 +651,7 @@ font-weight: bold;
       width: 100%;
     }
 
-    .hébergements{
+    .hébergements{  /*enlève le fond gris pour la version mobile*/
       background: none;
     }
 
