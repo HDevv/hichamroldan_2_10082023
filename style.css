@@ -299,8 +299,12 @@ height: 170px;
 width: 100%;
 }
 
-#trend .trendbox a{
-display: -webkit-inline-flex;
+#trend .trendbox a{  /*new, centrer le texte dans la box, supprimer si inutile, à vérifier*/
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .pluspopulaires:hover {
