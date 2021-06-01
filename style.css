@@ -106,7 +106,7 @@ input[type="submit"] /*bouton rechercher*/
 background-color: #0065FC;
 border: none;
 border-radius: 0 0.8em 0.8em 0;
-padding: 0.5em 0.7em 0.6em 0.7em;
+padding:  1em 1em 0.9em 1em;
 color: #ffffff;
 }
 form{
@@ -299,14 +299,6 @@ height: 170px;
 width: 100%;
 }
 
-#trend .trendbox a{  /*new, centrer le texte dans la box, supprimer si inutile, à vérifier*/
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
 .pluspopulaires:hover {
 transform:scale(1.05);
 transition: all 0.2s ease-in-out;
@@ -409,11 +401,11 @@ margin-left: 0px;
 margin-right: 0px;
 }
 
-.colonnefooter{
+.colonnefooter1, .colonnefooter2, .colonnefooter3 {
 width: 33%;
 }
 
-.colonnefooter ul{
+.colonnefooter1, .colonnefooter2, .colonnefooter3, ul{
 list-style: none;
 }
 
@@ -422,16 +414,15 @@ text-decoration: none;
 color: black;
 }
 
-.colonnefooter li{
+.colonnefooter1, .colonnefooter2, .colonnefooter3, li{
 line-height: 30px;
-font-weight: bolder;
 }
 
-.colonnefooter li:hover{
+.colonnefooter1, .colonnefooter2, .colonnefooter3, li:hover{
 color: #0065fc;
 }
 
-.colonnefooter .footer_li{
+.colonnefooter1, .colonnefooter2, .colonnefooter3, .footer_li{
 font-size: 18px;
 font-weight: bold;
 }
