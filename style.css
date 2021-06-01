@@ -293,7 +293,7 @@ display: flex;
 background-color: white;
 box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
 border-radius: 15px;
-padding: 3px;
+padding: 3px 10px 3px 3px;
 margin: 0em 3em 3em 3em;
 height: 170px;
 width: 100%;
@@ -328,6 +328,7 @@ margin-bottom: 0px;
 .menutexte p{
 font-size: 12px;
 }
+
 
 /*------ACTIVITES-----*/
 
