@@ -203,7 +203,6 @@ height: 150px;
 object-fit: cover;
 border-top-left-radius: 15px;
 border-top-right-radius: 15px;
-
 }
 
 .hébergements {
@@ -219,7 +218,7 @@ margin-left: 1em;
 }
 
 .premiereligne {
-display: flex;
+  display: flex;
 }
 
 .secondeligne {
@@ -554,17 +553,18 @@ font-weight: bold;
 
 @media screen and (max-width:730px){
 
+    .body{
+      width: 100%;
+    }
+
   /*Header*/
-
-  
-
 
     .logo .hebergementDecoration{
      font-size: 1.3em;
      display: block;
    }
 
-   #registerLink{
+    #registerLink{
      position: absolute;
      top: 2em;
      right: 1.5em;
@@ -666,7 +666,7 @@ font-weight: bold;
     .premiereligne, .secondeligne{
       flex-direction: column;
       align-items: center;
-      width: 100%;
+      min-width: 100%;
     }
     .contentbox .box{
       width: 100%;
