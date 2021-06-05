@@ -649,24 +649,23 @@ font-weight: bold;
 
     .hébergements{  /*enlève le fond gris pour la version mobile*/
       background: none;
+      width: 100%; /*met les box à la bonne largeur*/
     }
 
     .box{
       margin-bottom: 1em;
-      display: block;
+      display: flex;
+      width: 100%;
     }  
     .hebergements{
       flex-direction: column;
       width: 100%;
       align-items: center;
-      margin-top: 2em;
-      padding-right: 1em;
-      padding-left: 1em;
     } 
     .premiereligne, .secondeligne{
       flex-direction: column;
       align-items: center;
-      min-width: 100%;
+      width: 100%;
     }
     .contentbox .box{
       width: 100%;
