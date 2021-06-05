@@ -650,18 +650,16 @@ font-weight: bold;
     .hébergements{  /*enlève le fond gris pour la version mobile*/
       background: none;
       width: 100%; /*met les box à la bonne largeur*/
+      align-items: center;
+      margin-left: 3px;
+      margin-right: 3px;
     }
 
     .box{
       margin-bottom: 1em;
       display: flex;
       width: 100%;
-    }  
-    .hebergements{
-      flex-direction: column;
-      width: 100%;
-      align-items: center;
-    } 
+    }   
     .premiereligne, .secondeligne{
       flex-direction: column;
       align-items: center;
@@ -740,6 +738,9 @@ font-weight: bold;
     .bigbox{
       width: 100%;
     }  
+    .activitésbox h3{
+      font-weight: bold;
+    }
     
     /*FOOTER*/
     .colonnefooter{
