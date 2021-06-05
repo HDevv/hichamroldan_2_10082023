@@ -137,7 +137,15 @@ header nav
   border-top: 1px #0065FC solid;
   padding: 2em;
 }
-
+.sinscrireDeco{
+  color: #0065FC;
+  border-top: 1px #0065FC solid;
+  padding: 2em;
+}
+.activiteDeco{
+  color: #0065FC;
+  border-top: 1px #0065FC solid;
+}
 #registerLink
 {
   color: #0065FC;
