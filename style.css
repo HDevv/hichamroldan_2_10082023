@@ -588,7 +588,7 @@ font-weight: bold;
     .activiteDeco{
       position: absolute;
       display: block;
-      padding: 25px 4px, 25px 4px;
+      padding: auto;
     }
     nav p:hover{
       border-bottom: 2px solid #0065fc;
