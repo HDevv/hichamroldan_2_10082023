@@ -565,18 +565,20 @@ font-weight: bold;
 
     .logo{ /*new*/
       padding: 10px 0px 0px 20px;
+    } 
+    header {   /*new*/
+      display: flex;
+      max-width: 100%;
+      flex-wrap: wrap;
     }
 
     .sinscrireDeco{ /*new*/
      position: absolute;
      top: 2em;
      right: 1.5em;
+     font-weight: bold;
     }
-    header {   /*new*/
-      display: flex;
-      max-width: 100%;
-      flex-wrap: wrap;
-    }
+   
 
     .hebergementDecoration{
       display: block;
@@ -596,6 +598,8 @@ font-weight: bold;
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
+      max-width: 100%;
+      min-width: 100%;
     }
 
     /*---------Recherche---------*/
