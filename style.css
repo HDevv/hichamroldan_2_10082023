@@ -571,7 +571,6 @@ font-weight: bold;
       max-width: 100%;
       flex-wrap: wrap;
     }
-
     .sinscrireDeco{ /*new*/
      position: absolute;
      top: 1em;
@@ -584,11 +583,14 @@ font-weight: bold;
       display: block;
       padding-right: 15%;
       padding-left: 5%;  
+      width: 50%;
+      border-top: none;
     }
     .activiteDeco{
-      position: absolute;
       display: block;
-      padding: auto;
+      padding: 25px 4px 25px 13px;
+      width: 50%;
+      border-top: none;
     }
     nav p:hover{
       border-bottom: 2px solid #0065fc;
@@ -597,9 +599,11 @@ font-weight: bold;
     nav {
       display: flex;
       flex-wrap: wrap;
-      align-items: flex-start;
       max-width: 100%;
       min-width: 100%;
+    }
+    nav p{
+      border-bottom: 2px solid #0065FC;
     }
 
     /*---------Recherche---------*/
