@@ -81,6 +81,9 @@ nav a {
   padding-right: 2em;
   padding-top: 3.2em;
 }
+.button_small{
+  visibility: hidden;
+}
 
 /*Filtre et recherche*/
 #searchAndFilter div{
