@@ -146,7 +146,7 @@ header nav
   color: #0065FC;
   border-top: 1px #0065FC solid;
 }
-#registerLink
+.sinscrireDeco
 {
   color: #0065FC;
   font-weight: bold;
@@ -563,7 +563,7 @@ font-weight: bold;
 
   /*Header*/
 
-    .logo{
+    .logo{ /*new*/
       padding: 10px 0px 0px 20px;
     }
 
@@ -571,25 +571,31 @@ font-weight: bold;
      position: absolute;
      top: 2em;
      right: 1.5em;
-   }
+    }
     header {   /*new*/
       display: flex;
       max-width: 100%;
       flex-wrap: wrap;
     }
 
-
-
     .hebergementDecoration{
-      padding: 0px;
-      padding-bottom: 20px;
-      border-bottom: 2px solid #0065fc;
-      flex-wrap: wrap;
-      
+      display: block;
+      padding-right: 15%;
+      padding-left: 5%;  
+    }
+    .activiteDeco{
+      display: block;
+      padding-left: 5%;
+      padding-right: 30%;
     }
     nav p:hover{
       border-bottom: 2px solid #0065fc;
       color: blue;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
     }
 
     /*---------Recherche---------*/
