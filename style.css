@@ -574,21 +574,21 @@ font-weight: bold;
 
     .sinscrireDeco{ /*new*/
      position: absolute;
-     top: 2em;
+     top: 1em;
      right: 1.5em;
      font-weight: bold;
+     margin-right: 15px;
+     font-size: 15px;
     }
-   
-
     .hebergementDecoration{
       display: block;
       padding-right: 15%;
       padding-left: 5%;  
     }
     .activiteDeco{
+      position: absolute;
       display: block;
-      padding-left: 5%;
-      padding-right: 30%;
+      padding: 25px 4px, 25px 4px;
     }
     nav p:hover{
       border-bottom: 2px solid #0065fc;
