@@ -567,30 +567,25 @@ font-weight: bold;
       padding: 10px 0px 0px 20px;
     }
 
-    #registerLink{ /*new*/
+    .sinscrireDeco{ /*new*/
      position: absolute;
      top: 2em;
      right: 1.5em;
    }
     header {   /*new*/
-      display: block;
-      width: 100%;
-      flex-wrap: wrap-reverse;
+      display: flex;
+      max-width: 100%;
+      flex-wrap: wrap;
     }
+
 
 
     .hebergementDecoration{
       padding: 0px;
       padding-bottom: 20px;
       border-bottom: 2px solid #0065fc;
+      flex-wrap: wrap;
       
-    }
-   
-    nav p:hover{
-      border-top: none;
-    }
-    nav p:hover{
-      border-top: none;
     }
     nav p:hover{
       border-bottom: 2px solid #0065fc;
