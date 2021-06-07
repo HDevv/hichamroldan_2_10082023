@@ -592,17 +592,13 @@ font-weight: bold;
       width: 50%;
       border-top: none;
     }
-    nav p:hover{
-      border-bottom: 2px solid #0065fc;
-      color: blue;
-    }
     nav {
       display: flex;
       flex-wrap: wrap;
       max-width: 100%;
       min-width: 100%;
     }
-    nav p{
+    nav p:hover{
       border-bottom: 2px solid #0065FC;
     }
 
