@@ -643,7 +643,7 @@ font-weight: bold;
 
 
 /***********************FILTRES****************/
-    .filtresbleus h2{    /*filter line*/
+    .filtresbleus{    /*filter line*/
       display: flex;
     flex-wrap: wrap;
     margin-left: 20px;
