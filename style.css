@@ -636,18 +636,48 @@ font-weight: bold;
       margin-left: 25px;
       width: 50%;
   }
+  .submit{
+    visibility: hidden;
+  }
 
-    .filtresbleus{    /*filter line*/
+
+
+/***********************FILTRES****************/
+    .filtresbleus h2{    /*filter line*/
       display: flex;
     flex-wrap: wrap;
     margin-left: 20px;
     }
 
-    .submit{
-      visibility: hidden;
+    #filterTitle {
+      display: inline-flex;
+      flex-direction: column;
+      padding-bottom: 25px;
+      width:100%;
     }
+    #Animaux {
+      margin-left: 0px;
+      width: 65%;
+      padding-right: 0px;
+   
+   }
+   #Romantique {
+   margin-left: 0px;
+   margin-right: 50px;
+   }
+   #Familial {
+       margin-left: 0px;
+       margin-right: 0px;
+   }
+   #Economique {
+       margin-left: 0px;
+       margin-right: 5px;
+   }
     
-    /*-------PlusPopulaires----*/
+    
+    
+    
+    /*****************PlusPopulaires***********/
     
     #trend{
       width: 100%;
