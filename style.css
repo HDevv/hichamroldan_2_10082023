@@ -1,72 +1,70 @@
 /*--------GENERAL--------*/
 
-body{
-  font-family: 'Raleway', sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
   margin: auto;
 }
-main{
+main {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
-.body i, #trend i{
+.body i,
+#trend i {
   color: #0062fc;
   font-size: 12px;
 }
-.star .gris, .gris{
+.star .gris,
+.gris {
   color: #dad9d7;
 }
 /*general polices*/
-h1{
-font-size: 1.2em;
+h1 {
+  font-size: 1.2em;
 }
-h2, input
-{
-font-size: 1em;
-font-weight: bold;
+h2,
+input {
+  font-size: 1em;
+  font-weight: bold;
 }
-h3{
-font-size: 0.9em;
+h3 {
+  font-size: 0.9em;
 }
-p, li{
-font-size: 0.8em;
+p,
+li {
+  font-size: 0.8em;
 }
-a{
-text-decoration: none;
-color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 /*aside*/
 
-aside
-{
+aside {
   margin-left: 20px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 1em;
   width: 30%;
   padding: 1.3em 2em 1.3em 2em;
 }
 
-.titrepluspopulaires            /*space between title and icon*/
-{
+.titrepluspopulaires            /*space between title and icon*/ {
   display: flex;
   justify-content: space-between;
 }
-.titrepluspopulaires div            /*icon centered*/
-{ 
+.titrepluspopulaires div            /*icon centered*/ {
   align-self: center;
 }
 
-aside a         /*placement img & text side by side*/
-{
+aside a         /*placement img & text side by side*/ {
   display: flex;
 }
 
-aside img
-{
-max-width: 127px;
-max-height: 134px; 
-border-radius: 1em 0 0 1em; 
+aside img {
+  max-width: 127px;
+  max-height: 134px;
+  border-radius: 1em 0 0 1em;
 }
 
 /*-------NAVIGATION------*/
@@ -81,45 +79,42 @@ nav a {
   padding-right: 2em;
   padding-top: 3.2em;
 }
-.button_small{
+.button_small {
   visibility: hidden;
 }
 
-
 /*Filtre et recherche*/
-#searchAndFilter div{
-display: flex;
-align-items: center;
+#searchAndFilter div {
+  display: flex;
+  align-items: center;
 }
 
-#searchAndFilter label{  /*logo localisation*/
-background-color: #F2F2F2;
-padding: 1em 1em 0.9em 1em;
-border-radius: 0.8em 0 0 0.8em;
-font-size: 00.8em;
+#searchAndFilter label {
+  /*logo localisation*/
+  background-color: #f2f2f2;
+  padding: 1em 1em 0.9em 1em;
+  border-radius: 0.8em 0 0 0.8em;
+  font-size: 00.8em;
 }
 
-input[type="text"] /*where you put the city*/
-{
-border: 1px #F2F2F2 solid;
-padding: 0.5em 0.7em 0.6em 0.7em;
-margin: 0 -0.3em 0 -0.3em;
+input[type="text"] /*where you put the city*/ {
+  border: 1px #f2f2f2 solid;
+  padding: 0.5em 0.7em 0.6em 0.7em;
+  margin: 0 -0.3em 0 -0.3em;
 }
-input[type="submit"] /*bouton rechercher*/
-{
-background-color: #0065FC;
-border: none;
-border-radius: 0 0.8em 0.8em 0;
-padding:  1em 1em 0.9em 1em;
-color: #ffffff;
+input[type="submit"] /*bouton rechercher*/ {
+  background-color: #0065fc;
+  border: none;
+  border-radius: 0 0.8em 0.8em 0;
+  padding: 1em 1em 0.9em 1em;
+  color: #ffffff;
 }
-form{
-margin-bottom: 1em;
-} 
+form {
+  margin-bottom: 1em;
+}
 /*css pour le header*/
 
-header
-{
+header {
   display: flex;
   justify-content: space-between;
   padding-top: 1em;
@@ -128,73 +123,65 @@ header
   width: 95%;
 }
 
-header nav
-{
+header nav {
   display: flex;
   justify-content: space-between;
   width: 25%;
 }
 
-.hebergementDecoration
-{
-  color: #0065FC;
-  border-top: 1px #0065FC solid;
+.hebergementDecoration {
+  color: #0065fc;
+  border-top: 1px #0065fc solid;
   padding: 2em;
 }
-.sinscrireDeco{
-  color: #0065FC;
-  border-top: 1px #0065FC solid;
+.sinscrireDeco {
+  color: #0065fc;
+  border-top: 1px #0065fc solid;
   padding: 2em;
 }
-.activiteDeco{
-  color: #0065FC;
-  border-top: 1px #0065FC solid;
+.activiteDeco {
+  color: #0065fc;
+  border-top: 1px #0065fc solid;
 }
-.sinscrireDeco
-{
-  color: #0065FC;
+.sinscrireDeco {
+  color: #0065fc;
   font-weight: bold;
   border: none;
 }
 
 /*css pour les filtres*/
 
-#filterTitle            
-{
+#filterTitle {
   margin-right: 2em;
 }
 
-#filterSelection h2         /*filters decoration*/
-{
+#filterSelection h2         /*filters decoration*/ {
   margin-right: 2em;
-  border: 3px #F2F2F2 solid;
+  border: 3px #f2f2f2 solid;
   border-radius: 2em;
   padding: 0 0.5em 0 0;
 }
 
-#filterSelection h2:hover           /*filters when hovering*/
-{
-  background-color: #DEEBFF;
+#filterSelection h2:hover           /*filters when hovering*/ {
+  background-color: #deebff;
 }
 
-#filterSelection i          /*filters icons*/ 
-{
+#filterSelection i          /*filters icons*/ {
   padding: 0.5em;
   margin-right: 0.5em;
   border-radius: 2em;
-  background-color:  #DEEBFF;
+  background-color: #deebff;
 }
 
-#iForInfo           /* "i" icon*/
-{
-  border: 1px #F2F2F2 solid;
+#iForInfo           /* "i" icon*/ {
+  border: 1px #f2f2f2 solid;
   border-radius: 2em;
   font-size: 0.8em;
   padding: 0.4em 0.7em 0.4em 0.7em;
   margin-right: 0.5em;
 }
 
-.submit{
+.submit {
   padding: 13px;
   font-size: 12px;
   background-color: #0065fc;
@@ -206,28 +193,27 @@ header nav
   width: 10em;
 }
 
-
 /*------HEBERGEMENTS------*/
 
 .box img {
-width: 100%;
-height: 150px;
-object-fit: cover;
-border-top-left-radius: 15px;
-border-top-right-radius: 15px;
-margin-right: 100px;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-right: 100px;
 }
 
 .hébergements {
-width: 66%;
-padding: 1em;
-background-color: #F2F2F2;
-border-radius: 15px;
+  width: 66%;
+  padding: 1em;
+  background-color: #f2f2f2;
+  border-radius: 15px;
 }
 
 .Menu h2 {
-font-size: 18px;
-margin-left: 1em;
+  font-size: 18px;
+  margin-left: 1em;
 }
 
 .premiereligne {
@@ -235,577 +221,584 @@ margin-left: 1em;
 }
 
 .secondeligne {
-display: flex; 
+  display: flex;
 }
 
-.fondgris{
+.fondgris {
   display: flex;
 }
 
 .contentbox .box {
-background-color: white;
-width: 33%;
-box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
-border-radius: 15px;
-padding: 3px;
-margin: 1em;
+  background-color: white;
+  width: 33%;
+  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  border-radius: 15px;
+  padding: 3px;
+  margin: 1em;
 }
 
-.box h3{
-font-size: 14px;
-padding-left: 15px;
+.box h3 {
+  font-size: 14px;
+  padding-left: 15px;
 }
-.étoilesprix{
-padding-left: 15px;
-padding-bottom: 6px;
+.étoilesprix {
+  padding-left: 15px;
+  padding-bottom: 6px;
 }
 
-.box p{
-font-size: 12px;
+.box p {
+  font-size: 12px;
 }
 
 .fondgris {
-display: flex;
+  display: flex;
 }
 
-.afficherplus{
-padding-left: 1em;
+.afficherplus {
+  padding-left: 1em;
 }
-.afficherplus :hover{
-color: blue;
+.afficherplus :hover {
+  color: blue;
 }
 
 /* ------PLUS POPULAIRES------ */
 
 .titrepluspopulaires {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 0.5em;
-padding: 1em 1.5em 0em 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5em;
+  padding: 1em 1.5em 0em 1.5em;
 }
 
-.titrepluspopulaires h2{
-font-size: 18px;
+.titrepluspopulaires h2 {
+  font-size: 18px;
 }
 
-.titrepluspopulaires i{
-color: black;
+.titrepluspopulaires i {
+  color: black;
 }
 
-.conteneurbox{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0em 2em;
+.conteneurbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0em 2em;
 }
 
 #trend .trendbox {
-display: flex;
-background-color: white;
-box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
-border-radius: 15px;
-padding: 3px 10px 3px 3px;
-margin: 0em 3em 3em 3em;
-height: 170px;
-width: 100%;
+  display: flex;
+  background-color: white;
+  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  border-radius: 15px;
+  padding: 3px 10px 3px 3px;
+  margin: 0em 3em 3em 3em;
+  height: 170px;
+  width: 100%;
 }
 
 .pluspopulaires:hover {
-transform:scale(1.05);
-transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
 }
 
-.menutexte{
-display: flex;
-flex-direction: column;
-height: 150px;
-width: 100%;
-padding-left: 1em;
+.menutexte {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 100%;
+  padding-left: 1em;
 }
 
-.menutexte h3{
-font-size: 14px;
-margin-bottom: 0px;
+.menutexte h3 {
+  font-size: 14px;
+  margin-bottom: 0px;
 }
 
-.menutexte p{
-font-size: 12px;
+.menutexte p {
+  font-size: 12px;
 }
-
 
 /*------ACTIVITES-----*/
 
-.Activités{
-margin-top: 4em;
+.Activités {
+  margin-top: 4em;
 }
 
-.Activités h2{
-font-size: 18px;
+.Activités h2 {
+  font-size: 18px;
 }
 
-.activitésbox{
-display: flex;
+.activitésbox {
+  display: flex;
 }
 
-.moitie{
-display: flex;
-width: 50%;
+.moitie {
+  display: flex;
+  width: 50%;
 }
 
-.premierecolonne{
-width: 50%;
-margin-left: 2em;
-margin-right: 2em;
+.premierecolonne {
+  width: 50%;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
-.secondecolonne{
-width: 50%;
-margin-left: 2em;
+.secondecolonne {
+  width: 50%;
+  margin-left: 2em;
 }
 
-.bigbox{
-width: 50%;
+.bigbox {
+  width: 50%;
 }
 
-.activitésbox img{
-width: 100%;
-height: 450px;
-object-fit: cover;
-border-radius: 15px 15px 0px 0px;
+.activitésbox img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.activitésbox .box1 img{
-height: 220px;
+.activitésbox .box1 img {
+  height: 220px;
 }
 
-.activitésbox .box2 img{
-height: 140px;
+.activitésbox .box2 img {
+  height: 140px;
 }
 
-.bigbox, .box1, .box2{
-box-shadow: 4px 4px 8px rgb(190, 189, 189);
-border-radius: 15px;
-padding-bottom: 0.5em;
+.bigbox,
+.box1,
+.box2 {
+  box-shadow: 4px 4px 8px rgb(190, 189, 189);
+  border-radius: 15px;
+  padding-bottom: 0.5em;
 }
 
-.premierecolonne .box1{
-margin-bottom: 2em;
+.premierecolonne .box1 {
+  margin-bottom: 2em;
 }
 
-.secondecolonne .box2{
-margin-top: 2em;
+.secondecolonne .box2 {
+  margin-top: 2em;
 }
 
-.activitésbox h3{
-background-color: white;
-padding-left: 10px;
-font-size: 14px;
+.activitésbox h3 {
+  background-color: white;
+  padding-left: 10px;
+  font-size: 14px;
 }
 
 /*-------FOOTER------*/
 
-footer{
-background-color: #F2F2F2;
-display: flex;
-margin-top: 2em;
-margin-left: 0px;
-margin-right: 0px;
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  margin-top: 2em;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-.colonnefooter1, .colonnefooter2, .colonnefooter3 {
-width: 33%;
+.colonnefooter1,
+.colonnefooter2,
+.colonnefooter3 {
+  width: 33%;
 }
 
-.colonnefooter1, .colonnefooter2, .colonnefooter3, ul{
-list-style: none;
+.colonnefooter1,
+.colonnefooter2,
+.colonnefooter3,
+ul {
+  list-style: none;
 }
 
-a{
-text-decoration: none;
-color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.colonnefooter1, .colonnefooter2, .colonnefooter3, li{
-line-height: 30px;
+.colonnefooter1,
+.colonnefooter2,
+.colonnefooter3,
+li {
+  line-height: 30px;
 }
 
-.colonnefooter1, .colonnefooter2, .colonnefooter3, li:hover{
-color: #0065fc;
+.colonnefooter1,
+.colonnefooter2,
+.colonnefooter3,
+li:hover {
+  color: #0065fc;
 }
 
-.colonnefooter1, .colonnefooter2, .colonnefooter3, .footer_li{
-font-size: 18px;
-font-weight: bold;
+.colonnefooter1,
+.colonnefooter2,
+.colonnefooter3,
+.footer_li {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /*------MEDIA QUERIES-------*/
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-  .contentbox{
+  .contentbox {
     display: flex;
-  }  
-
-  .contentbox .box{
-  width: 80%; 
   }
 
-  .titrepluspopulaires .trendbox{
-  width: 80%;
-  height: 200px;
-  } 
-
-  .premiereligne, .secondeligne{
-  flex-direction: column;
-  width: 50%
+  .contentbox .box {
+    width: 80%;
   }
 
-  .titrepluspopulaires{
-  width: 40%;
+  .titrepluspopulaires .trendbox {
+    width: 80%;
+    height: 200px;
   }
 
-  .titrepluspopulaires img{
-  height: 100%;
+  .premiereligne,
+  .secondeligne {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .titrepluspopulaires {
+    width: 40%;
+  }
+
+  .titrepluspopulaires img {
+    height: 100%;
   }
 }
 
 /*--------IPAD--------*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .body{
+  .body {
     padding: auto;
   }
 
-  .titrepluspopulaires{
+  .titrepluspopulaires {
     width: 100%;
     margin: 0px;
   }
-  .titrepluspopulaires .conteneurbox{
+  .titrepluspopulaires .conteneurbox {
     flex-direction: initial;
     width: 100%;
     padding: 0%;
   }
-  .titrepluspopulaires .trendbox{
+  .titrepluspopulaires .trendbox {
     width: 50%;
     margin: 0em 1em 1em 1em;
   }
-  .titrepluspopulaires{
+  .titrepluspopulaires {
     padding: 0em 1em 1em 1em;
   }
-  .hébergements{
+  .hébergements {
     width: 100%;
     margin-top: 2em;
     padding: 0em;
   }
-  #map{
+  #map {
     height: 42px;
   }
-  .contentbox{
+  .contentbox {
     display: block;
   }
-  .premiereligne, .secondeligne{
+  .premiereligne,
+  .secondeligne {
     flex-direction: initial;
     width: 100%;
   }
-  .contentbox .box{
+  .contentbox .box {
     margin: 1em 1em 0em;
   }
-  
 
-/*-----Activités------*/
+  /*-----Activités------*/
 
-.premierecolonne{
-  width: 100%;
-  margin-right: 0em;
-  margin-left: 0px;
-}
-.premierecolonne .box1{
-  margin-bottom: 0px;
-}
-.second-column .box1{
-  margin-right: 0px;
-}
-.secondecolonne{
-  width: 100%;
-  margin-left: 0px;
-}
-.activitésbox img{
-  height: 200px;
-}
-.moitie{
-  flex-direction: column;
-  width: 100%;
-  margin-top: 2em;
-  padding-right: 1em;
-  padding-left: 1em;
-}
-.activitésbox .box1 img{
-  height: 200px;
-}
-.activitésbox .box2 img{
-  height: 200px;
-}
-.box2{
-  margin: 0px;
-  margin-top: 2em; 
-}
-.box1{
-  margin-top: 2em;
-  
-}
-.bigbox{
-  width: 100%;
-}
+  .premierecolonne {
+    width: 100%;
+    margin-right: 0em;
+    margin-left: 0px;
+  }
+  .premierecolonne .box1 {
+    margin-bottom: 0px;
+  }
+  .second-column .box1 {
+    margin-right: 0px;
+  }
+  .secondecolonne {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .activitésbox img {
+    height: 200px;
+  }
+  .moitie {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .activitésbox .box1 img {
+    height: 200px;
+  }
+  .activitésbox .box2 img {
+    height: 200px;
+  }
+  .box2 {
+    margin: 0px;
+    margin-top: 2em;
+  }
+  .box1 {
+    margin-top: 2em;
+  }
+  .bigbox {
+    width: 100%;
+  }
 }
 
 /*-----------iPHONE 8---------*/
 
-@media screen and (max-width:480px){
-
-    .body{
-      width: 100%;
-    }
+@media screen and (max-width: 480px) {
+  .body {
+    width: 100%;
+  }
 
   /*Header*/
 
-    .logo{ /*new*/
-      padding: 10px 0px 0px 20px;
-    } 
-    header {   /*new*/
-      display: flex;
-      max-width: 100%;
-      flex-wrap: wrap;
-    }
-    .sinscrireDeco{ /*new*/
-     position: absolute;
-     top: 1em;
-     right: 1.5em;
-     font-weight: bold;
-     margin-right: 15px;
-     font-size: 15px;
-    }
-    .hebergementDecoration{
-      display: block;
-      padding-right: 15%;
-      padding-left: 5%;  
-      width: 50%;
-      border-top: none;
-    }
-    .activiteDeco{
-      display: block;
-      padding: 25px 4px 25px 13px;
-      width: 50%;
-      border-top: none;
-    }
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 100%;
-      min-width: 100%;
-    }
-    nav p:hover{
-      border-bottom: 2px solid #0065FC;
-    }
-
-    /*---------Recherche---------*/
-
-    .button_small {
-      visibility: visible;
-      color: white;
-      background-color: #0065FC;
-      position: relative;
-      left: -120px;
-      border: 0px;
-      height: 44px;
-      padding-right: 17px;
-      padding-left: 17px;
-      border-radius :  10px ;  
+  .logo {
+    /*new*/
+    padding: 10px 0px 0px 20px;
   }
-  
+  header {
+    /*new*/
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  .sinscrireDeco {
+    /*new*/
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 15px;
+  }
+  .hebergementDecoration {
+    display: block;
+    padding-right: 15%;
+    padding-left: 5%;
+    width: 50%;
+    border-top: none;
+  }
+  .activiteDeco {
+    display: block;
+    padding: 25px 4px 25px 13px;
+    width: 50%;
+    border-top: none;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  nav p:hover {
+    border-bottom: 2px solid #0065fc;
+  }
+
+  /*---------Recherche---------*/
+
+  .button_small {
+    visibility: visible;
+    color: white;
+    background-color: #0065fc;
+    position: relative;
+    left: -120px;
+    border: 0px;
+    height: 44px;
+    padding-right: 17px;
+    padding-left: 17px;
+    border-radius: 10px;
+  }
+
   #lieu {
-      width: 250px;
-      max-width: 100%;
+    width: 250px;
+    max-width: 100%;
   }
-  
+
   ::placeholder {
-      font-size: 20px;
-      color: black;
+    font-size: 20px;
+    color: black;
   }
   form {
-      display: inline-flex;
-      margin-top: 50px;
-      margin-left: 25px;
-      width: 50%;
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: 25px;
+    width: 50%;
   }
-  .submit{
+  .submit {
     visibility: hidden;
   }
 
-
-
-/***********************FILTRES****************/
-    .filtresbleus{    /*filter line*/
-      display: flex;
+  /***********************FILTRES****************/
+  .filtresbleus {
+    /*filter line*/
+    display: flex;
     flex-wrap: wrap;
     margin-left: 20px;
-    }
+  }
 
-    #filterTitle {
-      display: inline-flex;
-      flex-direction: column;
-      padding-bottom: 25px;
-      width:100%;
-    }
-    #Animaux {
-      margin-left: 0px;
-      width: 65%;
-      padding-right: 0px;
-   
-   }
-   #Romantique {
-   margin-left: 0px;
-   margin-right: 50px;
-   }
-   #Familial {
-       margin-left: 0px;
-       margin-right: 0px;
-   }
-   #Economique {
-       margin-left: 0px;
-       margin-right: 5px;
-   }
-    
-    
-    
-    
-    /*****************PlusPopulaires***********/
-    
-    #trend{
-      width: 100%;
-    }
-    /*-------Hébergements------*/
+  #filterTitle {
+    display: inline-flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    width: 100%;
+  }
+  #Animaux {
+    margin-left: 0px;
+    width: 65%;
+    padding-right: 0px;
+  }
+  #Romantique {
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+  #Familial {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #Economique {
+    margin-left: 0px;
+    margin-right: 5px;
+  }
 
-    .fondgris{
-      flex-direction: column-reverse;
-      width: 100%;
-    }
+  /*****************PlusPopulaires***********/
 
-    .hébergements{  /*enlève le fond gris pour la version mobile*/
-      background: none;
-      width: 100%; /*met les box à la bonne largeur*/
-      align-items: center;
-      margin-left: 3px;
-      margin-right: 3px;
-    }
+  #trend {
+    width: 100%;
+  }
+  /*-------Hébergements------*/
 
-    .box{
-      margin-bottom: 1em;
-      display: flex;
-      width: 100%;
-    }   
-    .premiereligne, .secondeligne{
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-    }
-    .contentbox .box{
-      width: 100%;
-    }
-    .menu h2{
-      font-size: 1.6em;
-      margin-left: 1.6em;
-    }
-    .box h3{
-      font-size: 20px;
-      padding-left: 10px;
-    }
-    .box p{
-      font-size: 16px;
-      margin: 0px;
-    }
-    .afficherplus{
-      font-size: 14px;
-      margin-top: 30px;
-      padding-left: 3em;
-    }
-    .box .étoilesprix{
-      padding: 0px 0px 10px 10px;
-    }
-    
-    
-    /*ACTIVITES*/ 
-  
-    .premierecolonne{
-      width: 100%;
-      margin-right: 3em;
-      margin-left: 3em;
-    }
-    .premierecolonne .box1{
-      margin-bottom: 0px;
-    }
-    .secondecolonne .box1{
-      margin-right: 0px;
-    }
-    .secondecolonne{
-      width: 100%;
-      margin-left: 0px;
-    }
-    .activitésbox{    /*new*/
-      flex-direction: column;
-      align-items: center;
-    }
-    .activitésbox img{
-      height: 200px;
-    }
-    .moitie{
-      flex-direction: column;
-      width: 100%;
-      align-items: center;
-      margin-top: 2em;
-      padding-right: 1em;
-      padding-left: 1em;
-    }
-    .activitésbox .box1 img{
-      height: 200px;
-    }
-    .activitésbox .box2 img{
-      height: 200px;
-    }
-    .box2{
-      margin: 0px;
-      margin-top: 2em; 
-    }
-    .box1{
-      margin-top: 2em;  
-    }
-    .bigbox{
-      width: 100%;
-    }  
-    .activitésbox h3{
-      font-weight: bold;
-    }
-    
-    /*FOOTER*/
-    .colonnefooter{
-      width: 100%;
-    }
-    footer{
-      width: 100%;
-      flex-direction: column;
-    }
-    .footer_li{
-      font-weight: bold;
-      list-style-type: none;
-    }
-    footer, ul{
-      list-style-type: none;
-    }
-  
-  
-  
-  
-  
-      }
+  .fondgris {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
 
+  .hébergements {
+    /*enlève le fond gris pour la version mobile*/
+    background: none;
+    width: 100%; /*met les box à la bonne largeur*/
+    align-items: center;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
 
+  .box {
+    margin-bottom: 1em;
+    display: flex;
+    width: 100%;
+  }
+  .premiereligne,
+  .secondeligne {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .contentbox .box {
+    width: 100%;
+  }
+  .menu h2 {
+    font-size: 1.6em;
+    margin-left: 1.6em;
+  }
+  .box h3 {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .box p {
+    font-size: 16px;
+    margin: 0px;
+  }
+  .afficherplus {
+    font-size: 14px;
+    margin-top: 30px;
+    padding-left: 3em;
+  }
+  .box .étoilesprix {
+    padding: 0px 0px 10px 10px;
+  }
 
+  /*ACTIVITES*/
+
+  .premierecolonne {
+    width: 100%;
+    margin-right: 3em;
+    margin-left: 3em;
+  }
+  .premierecolonne .box1 {
+    margin-bottom: 0px;
+  }
+  .secondecolonne .box1 {
+    margin-right: 0px;
+  }
+  .secondecolonne {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .activitésbox {
+    /*new*/
+    flex-direction: column;
+    align-items: center;
+  }
+  .activitésbox img {
+    height: 200px;
+  }
+  .moitie {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .activitésbox .box1 img {
+    height: 200px;
+  }
+  .activitésbox .box2 img {
+    height: 200px;
+  }
+  .box2 {
+    margin: 0px;
+    margin-top: 2em;
+  }
+  .box1 {
+    margin-top: 2em;
+  }
+  .bigbox {
+    width: 100%;
+  }
+  .activitésbox h3 {
+    font-weight: bold;
+  }
+
+  /*FOOTER*/
+  .colonnefooter {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer_li {
+    font-weight: bold;
+    list-style-type: none;
+  }
+  footer,
+  ul {
+    list-style-type: none;
+  }
+}
