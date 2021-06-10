@@ -215,6 +215,7 @@ height: 150px;
 object-fit: cover;
 border-top-left-radius: 15px;
 border-top-right-radius: 15px;
+margin-right: 100px;
 }
 
 .hébergements {
@@ -456,7 +457,7 @@ font-weight: bold;
 
   .premiereligne, .secondeligne{
   flex-direction: column;
-  width: 50%;
+  width: 50%
   }
 
   .titrepluspopulaires{
