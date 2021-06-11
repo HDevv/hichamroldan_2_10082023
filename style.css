@@ -476,6 +476,7 @@ li:hover {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .body {
     padding: auto;
+    margin: 100%;
   }
 
   .titrepluspopulaires {
@@ -491,22 +492,10 @@ li:hover {
     width: 50%;
     margin: 0em 1em 1em 1em;
   }
-  .titrepluspopulaires {
-    padding: 0em 1em 1em 1em;
-  }
-  .hébergements {
-    width: 100%;
-    margin-top: 2em;
-    padding: 0em;
-  }
-  #map {
-    height: 42px;
-  }
   .contentbox {
     display: block;
   }
-  .premiereligne,
-  .secondeligne {
+  .premiereligne,.secondeligne {
     flex-direction: initial;
     width: 100%;
   }
@@ -623,11 +612,6 @@ li:hover {
     padding-right: 17px;
     padding-left: 17px;
     border-radius: 10px;
-  }
-
-  #lieu {
-    width: 250px;
-    max-width: 100%;
   }
 
   ::placeholder {
