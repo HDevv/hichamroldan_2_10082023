@@ -502,6 +502,10 @@ li:hover {
   .contentbox .box {
     margin: 1em 1em 0em;
   }
+  #filterSelection {
+    margin-right: 2em;
+    padding: 0 0.5em 0 0;
+  }
 
   /*-----Activités------*/
 
