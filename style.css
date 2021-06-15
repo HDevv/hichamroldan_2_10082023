@@ -263,6 +263,12 @@ header nav {
 
 /* ------PLUS POPULAIRES------ */
 
+
+.img_pop {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
 .titrepluspopulaires {
   display: flex;
   justify-content: space-between;
@@ -286,14 +292,13 @@ header nav {
   padding: 0em 2em;
 }
 
-#trend .trendbox {
+aside .trendbox {
   display: flex;
   background-color: white;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
   border-radius: 15px;
   padding: 3px 10px 3px 3px;
   margin: 0em 3em 3em 3em;
-  height: 170px;
   width: 100%;
 }
 
@@ -306,8 +311,6 @@ header nav {
 .menutexte {
   display: flex;
   flex-direction: column;
-  height: 150px;
-  width: 100%;
   padding-left: 1em;
 }
 
@@ -790,4 +793,60 @@ li:hover {
   ul {
     list-style-type: none;
   }
+}
+
+
+
+
+
+
+
+@media (max-width:480px) {
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  width:100%;
+  overflow-x: hidden;
+}
+
+  aside {
+    width: 90%;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 15px;
+  }
+
+  .hébergements {
+    width: 90%;
+    padding: 1em;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+  }
+  
+  .Menu h2 {
+    font-size: 18px;
+    margin-left: 1em;
+  }
+  .box img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .contentbox a {
+    width: 100%;
+    
+  }
+  
+
+  #filterSelection        {
+  flex-wrap: wrap;
+  }
+ #Animaux {
+  width: 60%;
+}
 }
