@@ -1,4 +1,4 @@
-/*--------GENERAL--------*/
+/*GENERAL*/
 
 body {
   font-family: "Raleway", sans-serif;
@@ -67,7 +67,7 @@ aside img {
   border-radius: 1em 0 0 1em;
 }
 
-/*-------NAVIGATION------*/
+/*NAVIGATION*/
 
 .Menu {
   display: flex;
@@ -193,7 +193,7 @@ header nav {
   width: 10em;
 }
 
-/*------HEBERGEMENTS------*/
+/*HEBERGEMENTS*/
 
 .box img {
   width: 100%;
@@ -261,7 +261,7 @@ header nav {
   color: blue;
 }
 
-/* ------PLUS POPULAIRES------ */
+/*PLUS POPULAIRES*/
 
 
 .img_pop {
@@ -323,7 +323,7 @@ aside .trendbox {
   font-size: 12px;
 }
 
-/*------ACTIVITES-----*/
+/*ACTIVITES*/
 
 .Activités {
   margin-top: 4em;
@@ -394,7 +394,7 @@ aside .trendbox {
   font-size: 14px;
 }
 
-/*-------FOOTER------*/
+/*FOOTER*/
 
 footer {
   background-color: #f2f2f2;
@@ -444,7 +444,7 @@ li:hover {
   font-weight: bold;
 }
 
-/*------MEDIA QUERIES-------*/
+/*MEDIA QUERIES*/
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .contentbox {
@@ -475,7 +475,7 @@ li:hover {
   }
 }
 
-/*--------IPAD--------*/
+/*IPAD*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .body {
@@ -511,7 +511,7 @@ li:hover {
     padding: 0 0.5em 0 0;
   }
 
-  /*-----Activités------*/
+  /*Activités*/
 
   .premierecolonne {
     width: 100%;
@@ -556,7 +556,7 @@ li:hover {
   }
 }
 
-/*-----------iPHONE 8---------*/
+/*iPHONE 8*/
 
 @media screen and (max-width: 480px) {
   .body {
@@ -607,7 +607,7 @@ li:hover {
     border-bottom: 2px solid #0065fc;
   }
 
-  /*---------Recherche---------*/
+  /*Recherche*/
 
   .button_small {
     visibility: visible;
@@ -636,7 +636,7 @@ li:hover {
     visibility: hidden;
   }
 
-  /***********************FILTRES****************/
+  /*FILTRES*/
   .filtresbleus {
     /*filter line*/
     display: flex;
@@ -668,12 +668,12 @@ li:hover {
     margin-right: 5px;
   }
 
-  /*****************PlusPopulaires***********/
+  /*PlusPopulaires*/
 
   #trend {
     width: 100%;
   }
-  /*-------Hébergements------*/
+  /*Hébergements*/
 
   .fondgris {
     flex-direction: column-reverse;
